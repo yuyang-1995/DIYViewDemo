@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yuy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.yuy.customer_view.RoundProgressBar
+        android:id="@+id/id_progress"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        yuy:color="#dc1bd6"
+        yuy:radius="40dp"
+        yuy:pg="0"
+        />
+
+</RelativeLayout>

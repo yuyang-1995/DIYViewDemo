@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--为自定义View声明标签-->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="color" format="color"></attr>
+        <attr name="line_width" format="dimension"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="pg"     format="integer" ></attr>
+        <attr name="android:textSize" ></attr>
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+
+
+    <!--TextView 自定义属性-->
+    <declare-styleable name="TestView">
+        <attr name="test_boolean" format="boolean"></attr>
+        <attr name="test_string" format="string"></attr>
+        <attr name="test_integer" format="integer"></attr>
+        <attr name="test_enum" format="enum">
+            <enum name="top" value="1"></enum>
+            <enum name="bottom" value="2"></enum>
+        </attr>
+        <attr name="test_dimension" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
